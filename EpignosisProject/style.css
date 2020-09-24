@@ -1,0 +1,121 @@
+.index body{
+  margin: 500px;
+  padding: 0;
+  background: url(image.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.subbf body{
+  margin: 0;
+  padding: 100px;
+  background: url(image.jpg);
+  background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.loginbox{
+  width: 420px;
+  height: 420px;
+  background: #fff;
+  color: #000;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  box-sizing:border-box;
+  padding: 70px 40px;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  padding: 0 0 20px;
+}
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"] , input[type="password"]{
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 14px;
+}
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+p{
+  font-weight: bold;
+}
+.loginbox button[type="submit"]{
+  border: none;
+  outline: none;
+  height: 39px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  width: 200px;
+  border-radius: 20px;
+}
+.loginbox button[type="submit"]:hover{
+  cursor: pointer;
+  background: #fb0010;
+  color:#000;
+}
+.normal button[type="submit"]{
+  border: none;
+  outline: none;
+  height: 39px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  width: 200px;
+  border-radius: 20px;
+}
+.normal button[type="submit"]:hover{
+  cursor: pointer;
+  background: #fb0010;
+  color:#000;
+}
+.sub button[type="submit"]{
+  border: none;
+  outline: none;
+  height: 39px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  width: 200px;
+  border-radius: 20px;
+}
+.sub button[type="submit"]:hover{
+  cursor: pointer;
+  background: #fb0010;
+  color:#000;
+}
+
+
+
+h3{
+  text-align: center;
+  margin: 0;
+  padding: 0 0 20px;
+}
+.column{
+  width: 1000px;
+}
+.sub{
+  width: 420px;
+  height: 420px;
+  color: #000;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  box-sizing:border-box;
+  padding: 70px 40px;
+}
